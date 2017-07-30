@@ -5,7 +5,7 @@
 #include<string>
 using namespace std;
 
-cout << "Inside Key Constants" <<endl;
+//cout << "Inside Key Constants" <<endl;
 
 class KeyPairs {
 public:
@@ -22,7 +22,7 @@ public:
     static map<int, KeyPairs> KEYS;
 };
 
-map<int, KeyPair> Keys::KEYS = {
+map<int, KeyPairs> Keys::KEYS = {
     {0xC1, {"[VK_ABNT_C1]", "[Abnt C1]"}},
     {0xC2, {"[VK_ABNT_C2]", "[Abnt C2]"}},
     {0x6B, {"[VK_ADD]", "[Numpad +]"}},
@@ -49,32 +49,32 @@ map<int, KeyPair> Keys::KEYS = {
     {0x37, {"[VK_KEY_7]", "[D7]"}},
     {0x38, {"[VK_KEY_8]", "[D8]"}},
     {0x39, {"[VK_KEY_9]", "[D9]"}},
-    {0x41, {"[VK_KEY_A]", "[A]"}},
-    {0x42, {"[VK_KEY_B]", "[B]"}},
-    {0x43, {"[VK_KEY_C]", "[C]"}},
-    {0x44, {"[VK_KEY_D]", "[D]"}},
-    {0x45, {"[VK_KEY_E]", "[E]"}},
-    {0x46, {"[VK_KEY_F]", "[F]"}},
-    {0x47, {"[VK_KEY_G]", "[G]"}},
-    {0x48, {"[VK_KEY_H]", "[H]"}},
-    {0x49, {"[VK_KEY_I]", "[I]"}},
-    {0x4A, {"[VK_KEY_J]", "[J]"}},
-    {0x4B, {"[VK_KEY_K]", "[K]"}},
-    {0x4C, {"[VK_KEY_L]", "[L]"}},
-    {0x4D, {"[VK_KEY_M]", "[M]"}},
-    {0x4E, {"[VK_KEY_N]", "[N]"}},
-    {0x4F, {"[VK_KEY_O]", "[O]"}},
-    {0x50, {"[VK_KEY_P]", "[P]"}},
-    {0x51, {"[VK_KEY_Q]", "[Q]"}},
-    {0x52, {"[VK_KEY_R]", "[R]"}},
-    {0x53, {"[VK_KEY_S]", "[S]"}},
-    {0x54, {"[VK_KEY_T]", "[T]"}},
-    {0x55, {"[VK_KEY_U]", "[U]"}},
-    {0x56, {"[VK_KEY_V]", "[V]"}},
-    {0x57, {"[VK_KEY_W]", "[W]"}},
-    {0x58, {"[VK_KEY_X]", "[X]"}},
-    {0x59, {"[VK_KEY_Y]", "[Y]"}},
-    {0x5A, {"[VK_KEY_Z]", "[Z]"}},
+    {0x41, {"[VK_KEY_A]", "A"}},
+    {0x42, {"[VK_KEY_B]", "B"}},
+    {0x43, {"[VK_KEY_C]", "C"}},
+    {0x44, {"[VK_KEY_D]", "D"}},
+    {0x45, {"[VK_KEY_E]", "E"}},
+    {0x46, {"[VK_KEY_F]", "F"}},
+    {0x47, {"[VK_KEY_G]", "G"}},
+    {0x48, {"[VK_KEY_H]", "H"}},
+    {0x49, {"[VK_KEY_I]", "I"}},
+    {0x4A, {"[VK_KEY_J]", "J"}},
+    {0x4B, {"[VK_KEY_K]", "K"}},
+    {0x4C, {"[VK_KEY_L]", "L"}},
+    {0x4D, {"[VK_KEY_M]", "M"}},
+    {0x4E, {"[VK_KEY_N]", "N"}},
+    {0x4F, {"[VK_KEY_O]", "O"}},
+    {0x50, {"[VK_KEY_P]", "P"}},
+    {0x51, {"[VK_KEY_Q]", "Q"}},
+    {0x52, {"[VK_KEY_R]", "R"}},
+    {0x53, {"[VK_KEY_S]", "S"}},
+    {0x54, {"[VK_KEY_T]", "T"}},
+    {0x55, {"[VK_KEY_U]", "U"}},
+    {0x56, {"[VK_KEY_V]", "V"}},
+    {0x57, {"[VK_KEY_W]", "W"}},
+    {0x58, {"[VK_KEY_X]", "X"}},
+    {0x59, {"[VK_KEY_Y]", "Y"}},
+    {0x5A, {"[VK_KEY_Z]", "Z"}},
     {0x6A, {"[VK_MULTIPLY]", "[Numpad *]"}},
     {0xFC, {"[VK_NONAME]", "[NoName]"}},
     {0x60, {"[VK_NUMPAD0]", "[N0]"}},

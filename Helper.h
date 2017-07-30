@@ -1,9 +1,10 @@
 #ifndef HELPER_H
 #define HELPER_H
 
-#define<sstream>
-#define<ctime>
-#define<string>
+#include<sstream>
+#include<ctime>
+#include<string>
+#include<fstream>
 
 namespace Helper
 {
@@ -49,7 +50,7 @@ namespace Helper
         }
 
         std::string GetDateTimeString(const std::string &sep = ":") const {
-            return GetDateString() + " " + GetTimeString(sep)
+            return GetDateString() + " " + GetTimeString(sep);
         }
     };
 
@@ -61,10 +62,10 @@ namespace Helper
         return s.str();
     }
 
-    void WriteAppLog(const std:string &s)
+    void WriteAppLog(const std::string &s)
     {
         std::ofstream file("AppLog.txt", std::ios::app);
-        file << "[" << Helper::DateTime().GetDateTimeString() << "]" << "\n" <<std::endl();
+        file << "[" << Helper::DateTime().GetDateTimeString() << "]" << "\n" <<std::endl;
         file.close();
     }
 
