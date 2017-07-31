@@ -1,4 +1,4 @@
-#C++ Keylogger
+C++ Keylogger
 
 This is a KeyLogger I leaned to write from Udemy course "Build an Advanced Keylogger using C++ for Ethical Hacking!"
 
